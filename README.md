@@ -21,6 +21,6 @@ __Bibliothèques__
 
 <ins>random</ins> : simplement pour choisir une pièce aléatoirement
 
-<ins>random</ins> : Pour récupérer les arguments passés au script Python en ligne de commande, comme le port ou l’adresse IP du serveur.
+<ins>argv from sys</ins> : Pour récupérer les arguments passés au script Python en ligne de commande, comme le port ou l’adresse IP du serveur.
 
-PS : Je ne sais pas si il faut mettre plus de développement par rapport au code, mais si jamais j'ai mis beaucoup de commentaires dans mon code pour expliquer comment il marche exactement. 
+PS : Je ne sais pas si il faut mettre plus de développement par rapport au code, mais si jamais j'ai mis beaucoup de commentaires dans mon code pour expliquer comment il marche exactement.
