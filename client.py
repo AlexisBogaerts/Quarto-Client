@@ -93,11 +93,11 @@ class Client:
                         if piece_to_play is not None:
                             all_pieces.discard(frozenset(piece_to_play))
 
-                        if all_pieces:    # pieces qu'on peut jouer
+                        if all_pieces:    # si il y a encore des pièces dispo on en prend une aléatoirement
                             chosen_set = random.choice(list(all_pieces))
                             return ''.join(chosen_set)  # retourne une string comme attendu
                         else:
-                            return None
+                            return None  # sinon on retourne None pour abandonner ( Mais normalement ça devrait pas arriver)
                     
                     try:
                         position = board.index(None)  # on essaye la première case vide
