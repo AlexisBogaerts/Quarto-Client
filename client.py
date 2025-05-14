@@ -93,10 +93,7 @@ class Client:
                         if piece_to_play is not None:
                             all_pieces.discard(frozenset(piece_to_play))
 
-                        # Pièces encore disponibles
-                        #available_pieces = list(all_pieces - used_pieces)
-
-                        if all_pieces:
+                        if all_pieces:    # pieces qu'on peut jouer
                             chosen_set = random.choice(list(all_pieces))
                             return ''.join(chosen_set)  # retourne une string comme attendu
                         else:
